@@ -19,7 +19,7 @@ public class RabbitmqConfig {
 
     @Bean
     public Queue queue() {
-        return new Queue(DefaultProperty.directQueueName);
+        return new Queue(DefaultProperty.topicQueueName);
     }
 
     @Bean
