@@ -43,7 +43,7 @@ spring:
     username: guest
     password: guest
     #虚拟host 可以不设置,使用server默认host
-    virtual-host: JCcccHost
+    virtual-host:
 
 # mybatis-plus相关配置
 mybatis-plus:
@@ -81,6 +81,6 @@ customize:
   redis-duration: 5
   topic-queue: TopicQueue1000
   topic-exchange: TopicExchange1000
-  routing-key: com.example.*
+  routing-key: com.example.demo
   worker-id: 5
   data-center-id: 5
