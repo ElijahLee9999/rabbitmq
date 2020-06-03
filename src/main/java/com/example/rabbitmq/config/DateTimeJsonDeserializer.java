@@ -11,10 +11,11 @@ import org.joda.time.format.DateTimeFormatter;
 import java.io.IOException;
 
 /**
+ * DateTime反序列化配置
  * @author Elijah
  * @create 2020-05-29 15:16
  */
-public class MyJsonDeserializer extends JsonDeserializer<DateTime> {
+public class DateTimeJsonDeserializer extends JsonDeserializer<DateTime> {
 
     @Override
     public DateTime deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException, JsonProcessingException {

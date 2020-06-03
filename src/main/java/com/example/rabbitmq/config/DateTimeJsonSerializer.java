@@ -8,10 +8,11 @@ import org.joda.time.DateTime;
 import java.io.IOException;
 
 /**
+ * DateTime序列化配置
  * @author Elijah
  * @create 2020-05-29 15:11
  */
-public class MyJsonSerializer extends JsonSerializer<DateTime> {
+public class DateTimeJsonSerializer extends JsonSerializer<DateTime> {
 
     @Override
     public void serialize(DateTime dateTime, JsonGenerator jsonGenerator, SerializerProvider serializerProvider) throws IOException {
