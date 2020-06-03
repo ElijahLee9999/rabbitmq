@@ -68,11 +68,6 @@ mybatis-plus:
   #支持通配符 * 或者 ; 分割
   typeEnumsPackage: com.example.rabbitmq.*.enums
 
-#ID_WORKER配置
-id-generator:
-  worker-id: 2
-  data-center-id: 2
-
 customize:
   date-time-format: yyyy-MM-dd HH:mm:ss.SSS
   time-zone: GMT
